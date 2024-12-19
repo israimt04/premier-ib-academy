@@ -35,7 +35,7 @@ export default function Home() {
           
           </div>
           <div className="flex justify-center items-center" style={{ 'marginRight': '0px', 'marginTop': '0px' }}>
-            <Image src="/girl_stu.png" alt="student" width={950} height={950} />
+            <Image src="/Girl_STU.png" alt="student" width={950} height={950} />
           </div>
         </div>
       </div>
