@@ -22,6 +22,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'Premier IB Academy Logo',
+        secureUrl: 'https://www.premieribacademy.com/IB_LOGO.png',
       },
     ],
     locale: 'en_US',
