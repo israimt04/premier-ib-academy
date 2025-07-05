@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Premier IB Academy - Elite IGCSE, IB & A-Level Tutoring',
     description: 'Ready to elevate your studies? Our live tutoring sessions are tailored to help you master tough subjects, clear up doubts, and ace your exams with confidence!',
-    url: 'https://your-domain.com', // Replace with your actual domain
+    url: 'https://www.premieribacademy.com/', // Replace with your actual domain
     siteName: 'Premier IB Academy',
     images: [
       {
-        url: 'https://your-domain.com/Girl_STU.png', // Replace with your actual domain
+        url: '/Girl_STU.png', // Replace with your actual domain
         width: 950,
         height: 950,
         alt: 'Premier IB Academy Student',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Premier IB Academy - Elite IGCSE, IB & A-Level Tutoring',
     description: 'Ready to elevate your studies? Our live tutoring sessions are tailored to help you master tough subjects, clear up doubts, and ace your exams with confidence!',
-    images: ['https://your-domain.com/Girl_STU.png'], // Replace with your actual domain
+    images: ['/Girl_STU.png'], // Replace with your actual domain
   },
   robots: {
     index: true,
