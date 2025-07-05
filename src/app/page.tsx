@@ -3,7 +3,41 @@ import { Button } from "@/components/ui/button";
 import NavBar from "@/components/myComponents/navBar";
 import Footer from "@/components/myComponents/footer";
 import { InfiniteMovingCards } from "@/components/myComponents/infinite-moving-cards"
-import Link from 'next/link';  // Import Next.js Link component
+import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Premier IB Academy - Elite IGCSE, IB & A-Level Tutoring',
+  description: 'Elevate your studies with our personalized live tutoring sessions. Master tough subjects, clear doubts, and ace your IGCSE, IB, and A-Level exams with confidence.',
+  keywords: 'IB tutoring, IGCSE tutoring, A-Level tutoring, online tutoring, Premier IB Academy',
+  authors: [{ name: 'Premier IB Academy' }],
+  openGraph: {
+    title: 'Premier IB Academy - Elite IGCSE, IB & A-Level Tutoring',
+    description: 'Ready to elevate your studies? Our live tutoring sessions are tailored to help you master tough subjects, clear up doubts, and ace your exams with confidence!',
+    url: 'https://your-domain.com', // Replace with your actual domain
+    siteName: 'Premier IB Academy',
+    images: [
+      {
+        url: 'https://your-domain.com/Girl_STU.png', // Replace with your actual domain
+        width: 950,
+        height: 950,
+        alt: 'Premier IB Academy Student',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Premier IB Academy - Elite IGCSE, IB & A-Level Tutoring',
+    description: 'Ready to elevate your studies? Our live tutoring sessions are tailored to help you master tough subjects, clear up doubts, and ace your exams with confidence!',
+    images: ['https://your-domain.com/Girl_STU.png'], // Replace with your actual domain
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function Home() {
   return (
